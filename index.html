@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solar Power Prediction</title>
+</head>
+<body>
+
+<h2>Solar Power Prediction</h2>
+
+<form action="/predict" method="post">
+
+    <input type="text" name="temperature" placeholder="Temperature" required><br><br>
+    <input type="text" name="humidity" placeholder="Humidity" required><br><br>
+    <input type="text" name="wind_speed" placeholder="Wind Speed" required><br><br>
+    <input type="text" name="average_pressure" placeholder="Pressure" required><br><br>
+    <input type="text" name="visibility" placeholder="Visibility" required><br><br>
+
+    <button type="submit">Predict</button>
+
+</form>
+
+<h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
+
+<h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
